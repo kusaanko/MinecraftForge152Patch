@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MinecraftForge152Patch:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MinecraftForge152Patch_jar</output-path>
+    <root id="archive" name="MinecraftForge152Patch.jar">
+      <element id="module-output" name="MinecraftForge152Patch" />
+    </root>
+  </artifact>
+</component>
