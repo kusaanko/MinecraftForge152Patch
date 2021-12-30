@@ -5,7 +5,7 @@
 This project's goal is reducing errors happen in Minecraft Forge for 1.5.2.
 
 # Main feature
-- Stop library download error
+- Stop library downloading error
   - Replace new library download link
   - Replace old checksum to new one.
   - Generate deobfuscation_data_1.5.2.zip
