@@ -4,6 +4,7 @@ import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 
+import java.io.File;
 import java.lang.reflect.Field;
 import java.util.List;
 
@@ -14,6 +15,7 @@ public class MinecraftForge152Patch {
     // Add branding
     @Mod.PostInit
     public void load(FMLPostInitializationEvent event) {
+        if(new File("MinecraftForge152Patch_hideBranding.txt").exists()) return;
         FMLCommonHandler fmlCommonHandler = FMLCommonHandler.instance();
         fmlCommonHandler.getBrandings();
         try {
