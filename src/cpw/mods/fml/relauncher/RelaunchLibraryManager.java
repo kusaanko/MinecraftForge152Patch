@@ -932,4 +932,9 @@ public class RelaunchLibraryManager
         return CertificateHelper.getFingerprint(buffer);
     }
     // --------  MinecraftForge152 Patch end ---------
+
+    private static String generateChecksum(ByteBuffer buffer)
+    {
+        return CertificateHelper.getFingerprint(buffer);
+    }
 }
