@@ -13,6 +13,11 @@ This project's goal is reducing errors happen in Minecraft Forge for 1.5.2.
 # How to install 
 Put downloaded zip file content into minecraft.jar after installing forge.
 
+# Attention
+If you launch Minecraft Forge with this mod at first launch, please launch it with this mod from next time too.
+
+This mod includes checksum replacing system, so if you uninstall this mod then you can't launch Minecraft.
+
 # How to stop showing branding on title screen?
 Make `MinecraftForge152Patch_hideBranding.txt` file in .minecraft(or game directory).
 
